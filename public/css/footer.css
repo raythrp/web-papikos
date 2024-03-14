@@ -1,0 +1,56 @@
+footer.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  background-color: var(--main-color);
+  height: 28vh;
+  display: flex;
+  align-items: center;
+  width: 100% ;
+}
+
+footer .wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+footer .wrapper .container{
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0;
+}
+
+footer .kiri{
+  width: 70%;
+}
+
+footer .kanan{
+  width: 30%;
+  display: flex;
+  justify-content: end;
+}
+
+footer p{
+  margin-bottom: 0;
+  margin-left: -2px;
+  margin-right: 30px;
+}
+
+footer h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+footer .line{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.kanan img{
+  width: 150px;
+}

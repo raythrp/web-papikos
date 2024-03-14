@@ -1,0 +1,280 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  /* margin: 0; */
+}
+
+/* Hero Section */
+
+.hero {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero .content {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.hero .content h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 4rem;
+  width: 700px;
+}
+
+.hero .content p {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.hero .content .cta {
+  background-color: white;
+  color: var(--main-color);
+  padding: 12px 50px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.sejajar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sejajar .feather {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+/* Offer Section */
+
+.offer {
+  height: 160vh;
+}
+
+.row {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.offer h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 54px;
+  font-weight: 700;
+  color: #1A5D1A;
+}
+
+.offer p.subh1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 506px;
+  margin: 20px auto 80px auto;
+}
+
+
+.offer .subh1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #F1C93B;
+}
+
+.offer .content {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.card-kos {
+  background-color: white;
+  padding: 28px 0px 28px 26px;
+  width: 335px;
+  height: 550px;
+  box-shadow: 0px 4px 20px 0px rgba(26, 93, 26, 0.15);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-kos header {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-kos .round {
+  background-color: #1A5D1A;
+  border-radius: 30px 0px 0px 30px;
+  padding: 10px 30px;
+  color: white;
+}
+
+.card-kos .round p {
+  color: white;
+}
+
+.card-kos header p {
+  color: #F1C93B;
+  margin: 0;
+  font-weight: 500;
+}
+
+.card-kos main {
+  margin-top: 20px;
+}
+
+.card-kos img {
+  border-radius: 10px;
+  width: 281px;
+  height: 208px;
+  box-shadow: none;
+}
+
+.card-kos main .judul {
+  color: #4a4a4a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-kos main .harga {
+  color: #4a4a4a;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card-kos main .harga span {
+  color: #F1C93B;
+}
+
+.card-kos main .desc {
+  font-size: 12px;
+  color: #1A5D1A;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.card-kos footer button {
+  padding: 13px 25px;
+  background-color: transparent;
+  border: 1px solid #F1C93B;
+  color: #F1C93B;
+  border-radius: 5px;
+}
+
+.card-kos footer button:hover {
+  padding: 13px 25px;
+  background-color: #F1C93B;
+  border: 1px solid #F1C93B;
+  color: white;
+  border-radius: 5px;
+}
+
+.card-kos .cta {
+  padding: 0;
+  display: flex;
+  color: #4a4a4a;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card {
+  background-color: white;
+  width: 335px;
+  height: 550px;
+  box-shadow: 0px 4px 20px 0px rgba(26, 93, 26, 0.15);
+  border-radius: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card a {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card a:hover {
+  font-size: 17px;
+  transition: ease-in-out;
+}
+
+/* section something */
+
+.something {
+  background-color: #DAFFDA;
+  margin-bottom: 300px;
+}
+
+.something .wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.something .wrapper h1 {
+  color: #4A4A4A;
+  text-align: center;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 75.6px */
+}
+
+.something .wrapper center p {
+  color: #454545;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  width: 660px;
+}
+
+.something .wrapper .boxwrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.something .wrapper .box {
+  background: #FFF;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  height: 132px;
+  width: 302px;
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.something .wrapper .box .content p {
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+
+.something .img img {
+  height: 36px;
+  width: 36px;
+}

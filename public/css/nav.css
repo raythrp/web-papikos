@@ -1,0 +1,84 @@
+:root{
+  --main-color : #1A5D1A;
+}
+
+nav.nav{
+  margin: 10px 0;
+}
+
+nav .container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+}
+
+img{
+  width: 80px;
+}
+
+.logo a{
+  padding: 0 20px 0 0;
+  cursor: pointer;
+}
+
+.menu {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.nav .menu-item {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  /* transition: ease-in-out 0.1s; */
+}
+
+.sign-up {
+  width: 20%;
+  text-align: right;
+}
+
+.sign-up .daftar {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--main-color);
+  padding: 10px 25px;
+  border-radius: 3px;
+}
+
+.sign-up .login {
+  background-color: #1A5D1A;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 10px 25px;
+  border-radius: 3px;
+}
+
+.sign-up a:hover {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  /* background-color: var(--main-color);
+  color: white;
+  transition: ease-in-out 0.25s; */
+}

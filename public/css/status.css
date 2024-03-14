@@ -1,0 +1,166 @@
+section {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+section .cardio {
+  margin: 80px 0;
+  display: flex;
+  padding: 100px 100px;
+  background: #FFF;
+  box-shadow: 0px 4px 18px 0px rgba(26, 93, 26, 0.49);
+  border-radius: 10px;
+}
+
+section .cardio .right{
+  width: 100%;
+  padding: 0 0 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section .cardio .right h1{
+  color: #1A5D1A;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+section .cardio .inline{
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+section .cardio .inline.first{
+  margin-top: 30px;
+}
+
+section .cardio .inline label{
+  width: 30%;
+  font-size: 1.3rem;
+}
+
+section .cardio .inline input{
+  width: 68%;
+  height: 40px;
+  border: 1px solid #1A5D1A;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+section .cardio .inline-button{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+}
+
+section .cardio button{
+  background-color: #1A5D1A;
+  padding: 8px 20px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+
+section .cardio button a{
+  text-decoration: none;
+  color: white;
+}
+
+.card-kos {
+  background-color: white;
+  padding: 28px 0px 28px 26px;
+  width: 335px;
+  height: 550px;
+  box-shadow: 0px 4px 20px 0px rgba(26, 93, 26, 0.15);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-kos header {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-kos .round {
+  background-color: #1A5D1A;
+  border-radius: 30px 0px 0px 30px;
+  padding: 10px 30px;
+  color: white;
+}
+
+.card-kos .round p {
+  color: white;
+}
+
+.card-kos header p {
+  color: #F1C93B;
+  margin: 0;
+  font-weight: 500;
+}
+
+.card-kos main {
+  margin-top: 20px;
+}
+
+.card-kos img {
+  border-radius: 10px;
+  width: 281px;
+  height: 208px;
+  box-shadow: none;
+}
+
+.card-kos main .judul {
+  color: #4a4a4a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-kos main .harga {
+  color: #4a4a4a;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card-kos main .harga span {
+  color: #F1C93B;
+}
+
+.card-kos main .desc {
+  font-size: 12px;
+  color: #1A5D1A;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.card-kos footer button {
+  padding: 13px 25px;
+  background-color: transparent;
+  border: 1px solid #F1C93B;
+  color: #F1C93B;
+  border-radius: 5px;
+}
+
+.card-kos footer button:hover {
+  padding: 13px 25px;
+  background-color: #F1C93B;
+  border: 1px solid #F1C93B;
+  color: white;
+  border-radius: 5px;
+}
+
+.card-kos .cta {
+  padding: 0;
+  display: flex;
+  color: #4a4a4a;
+  font-weight: 700;
+  font-size: 16px;
+}

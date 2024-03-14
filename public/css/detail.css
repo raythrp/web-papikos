@@ -1,0 +1,144 @@
+section {
+  max-width: 1140px;
+  margin: 0 auto;
+  min-height: 57vh;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.wrapper .left img {
+  width: 760px;
+  height: 475px;
+  border-radius: 10px;
+}
+
+.wrapper .right{
+  margin-left: 27px;
+}
+
+.wrapper .right .cardio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper .right p {
+  color: #B8B8B8;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.wrapper .right .cardio {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  min-height: 435px;
+}
+
+.wrapper .right .cardio h2 {
+  color: #1A5D1A;
+  font-weight: 700;
+}
+
+.wrapper .right .cardio h5 {
+  color: #1A5D1A;
+  font-weight: 300;
+}
+
+.wrapper .right .cardio p {
+  margin-top: 20px;
+  color: #959595;
+  font-weight: 500;
+  /* max-width: 300px; */
+}
+
+.wrapper .right .cardio footer {
+  margin-top: auto;
+}
+
+.wrapper .right .cardio h3 {
+  color: #1A5D1A;
+  font-weight: 700;
+}
+
+.wrapper .right .cardio h3 span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* .wrapper .right a{
+  text-decoration: none;
+  background-color: #1A5D1A;
+  color: white;
+  padding: 10px 98px;
+} */
+
+.wrapper .right button {
+  background-color: #1A5D1A;
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  border-radius: 2px;
+}
+
+.wrapper .right button a {
+  text-decoration: none;
+  color: white;
+}
+
+.hidden-div {
+  margin: 100px 0;
+  /* display: none; */
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  min-height: 300px;
+  padding: 50px 300px;
+  font-size: 1.1rem;
+}
+
+.hidden-div h1{
+  font-weight: 600;
+  color: #1A5D1A;
+}
+
+
+.hidden-div label,
+.hidden-div input{
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.hidden-div .inline{
+  display: flex;
+}
+
+.hidden-div label {
+  min-width: 30%;
+}
+
+.hidden-div input{
+  min-width: 70%;
+}
+
+.hidden-div button{
+  background-color: #1A5D1A;
+  color: white;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 3px;
+  border: 1px solid #1A5D1A;
+  padding: 8px 0;
+}
+
+.hidden-div button:hover{
+  background-color: #348e34;
+  color: white;
+  transition: ease-in-out 0.2s;
+}
