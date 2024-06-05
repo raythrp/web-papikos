@@ -11,5 +11,7 @@ We develop Papikos to fulfill the final assignment of Web Programming subject
 ## The Authors
 
 Josef Harvey MAngaratua- 140810220023
+
 Umar Bin Abdul Aziz - 140810220035
+
 (Lead) Rayhan Athar Prasnaputra - 140810220055
