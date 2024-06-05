@@ -10,7 +10,7 @@ We develop Papikos to fulfill the final assignment of Web Programming subject
 
 ## The Authors
 
-Josef Harvey MAngaratua- 140810220023
+Josef Harvey Mangaratua- 140810220023
 
 Umar Bin Abdul Aziz - 140810220035
 
